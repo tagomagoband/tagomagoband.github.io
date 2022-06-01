@@ -6,7 +6,7 @@ html {
   display: grid;
   justify-items: center;
   align-items: center;
-  margin: 0;
+  margin: 0 30%;
 }
 
 .main-list {
