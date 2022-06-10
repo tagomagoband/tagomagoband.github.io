@@ -6,7 +6,6 @@ html {
   display: grid;
   justify-items: center;
   align-items: center;
-  margin: 0 30%;
 }
 
 .main-list {
@@ -66,4 +65,16 @@ html {
 .news-item-header {
   font-weight: bold;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  .body {
+    margin: 0 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div > img {
+    width: 100%;
+  }
 }
