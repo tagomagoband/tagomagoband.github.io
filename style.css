@@ -41,11 +41,8 @@ html {
 }
 
 .nav-bar {
-  position: fixed;
   text-align: center;
   background-color: white;
-  width: 100%;
-  top: 0;
 }
 
 .content {
@@ -71,10 +68,21 @@ html {
   .body {
     margin: 0 30%;
   }
+
+  .nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
   div > img {
     width: 100%;
+    margin-top: -35px;
+  }
+
+  .nav-list a {
+    font-size: initial;
   }
 }
